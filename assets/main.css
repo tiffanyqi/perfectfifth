@@ -1,15 +1,16 @@
-body {
-    font-family: 'Oswald', sans-serif;
-    background: #333333;
-    color: white;
-    line-height: 1.75;
-    letter-spacing: 0.1px;
-    font-weight: 300;
+#navbar {
+    width: 100%;
+    background: black;
+    text-align: center;
+    display: inline-block;
+    word-spacing: 40px;
+    font-size: 16px;
+    padding: 5px;
 }
 #title-perfect {
     position: absolute;
     z-index: 1;
-    left: 150px;
+    left: 300px;
     top: 150px;
     font-size: 100px;
 }
@@ -17,7 +18,7 @@ body {
     color: #ff7a7a;
     position: absolute;
     z-index: 1;
-    left: 150px;
+    left: 300px;
     top: 260px;
     font-size: 100px;
 }
@@ -36,21 +37,6 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-#navbar {
-    width: 100%;
-    background: black;
-    text-align: center;
-    display: inline-block;
-    word-spacing: 30px;
-    font-size: 16px;
-    padding: 5px;
-}
-
-.container {
-    padding: 20px;
-    border: dotted #ff7a7a;
-    margin: 20px;
-}
 #about-picture {
     background: url("pictures/banners/Fall2014.jpg");
     width: 800px;
@@ -60,9 +46,33 @@ body {
     border: 1px solid gray;
 }
 
+.container {
+    padding: 20px;
+    padding-top: 5px;
+    border: dotted #ff7a7a;
+    margin: 20px;
+}
+.container-table {
+    padding: 20px;
+    padding-top: 5px;
+    border: dotted #ff7a7a;
+    margin: 20px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #333333;
+    color: white;
+    line-height: 1.75;
+    letter-spacing: 0.1px;
+    font-weight: 300;
+}
 h1 {
     width: 100%;
     text-align: center;
+}
+h2 {
+    color: #ff7a7a;
 }
 b {
     font-weight: 400;
@@ -84,6 +94,9 @@ a:hover {
 img {
     border: 1px solid gray;
 }
+iframe {
+    border: 1px solid gray;
+}
 footer {
     margin-top: 100px;
     width: 100%;
@@ -91,4 +104,26 @@ footer {
     color: #ff7a7a;
     background: black;
     padding: 20px;
+}
+
+@media screen and (max-width: 950px) {
+    #title-perfect {
+        left: 80px;
+        top: 150px;
+    }
+    #title-fifth {
+        color: #ff7a7a;
+        position: absolute;
+        z-index: 1;
+        left: 80px;
+        top: 260px;
+        font-size: 100px;
+    }
+    .container-table {
+        padding: 20px;
+        padding-top: 5px;
+        border: dotted #ff7a7a;
+        margin: 20px;
+        width: 900px;
+    }
 }

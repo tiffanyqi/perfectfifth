@@ -1,0 +1,15 @@
+pages:
+    - repertoire.html (includes year separations)
+    - pictures.html
+    - media.html
+
+    - alumni.html (includes year separations)
+    - mark.html
+    - membersonly.html?
+
+animations:
+    - dropdown for repertoire*
+    - image resizing (for responsivity)
+    - delayed transitions for links
+    - facebook icon?
+    - media popup instead of new link?
