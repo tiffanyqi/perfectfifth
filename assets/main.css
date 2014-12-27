@@ -45,19 +45,52 @@
     margin-left: auto;
     border: 1px solid gray;
 }
+#fb-icon {
+    position: fixed;
+}
+#fb-icon:hover {
+    background-color: #ff7a7a;
+}
 
 .container {
-    padding: 20px;
-    padding-top: 5px;
+    padding: 50px;
     border: dotted #ff7a7a;
     margin: 20px;
 }
-.container-table {
-    padding: 20px;
-    padding-top: 5px;
+.container-members {
+    padding: 30px;
     border: dotted #ff7a7a;
     margin: 20px;
 }
+.container-media {
+    padding: 70px;
+    padding-top: 5px;
+    border: dotted #ff7a7a;
+    margin: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-heading {
+    padding: 50px;
+    border: dotted white;
+    margin: 20px;
+}
+.container-members-heading {
+    padding: 30px;
+    border: dotted white;
+    margin: 20px;
+}
+
+#lasciameti-morire {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width:auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+    /*audio src="assets/music/Monteverdi Lasciatemi.mp3" controls="controls"></audio>*/
 
 body {
     font-family: 'Oswald', sans-serif;
@@ -74,11 +107,22 @@ h1 {
 h2 {
     color: #ff7a7a;
 }
+h3 {
+    text-align: center;
+    margin-right: 10px;
+}
 b {
     font-weight: 400;
     transition: 0.5s;
 }
 b:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+i {
+    transition: 0.5s;
+}
+i:hover {
     opacity: 0.5;
     transition: 0.5s;
 }
@@ -96,6 +140,7 @@ img {
 }
 iframe {
     border: 1px solid gray;
+    margin-bottom: 30px;
 }
 footer {
     margin-top: 100px;
@@ -106,7 +151,7 @@ footer {
     padding: 20px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 970px) {
     #title-perfect {
         left: 80px;
         top: 150px;
@@ -119,10 +164,15 @@ footer {
         top: 260px;
         font-size: 100px;
     }
-    .container-table {
-        padding: 20px;
-        padding-top: 5px;
+    .container-members {
+        padding: 50px;
         border: dotted #ff7a7a;
+        margin: 20px;
+        width: 900px;
+    }
+    .container-members-heading {
+        padding: 50px;
+        border: dotted white;
         margin: 20px;
         width: 900px;
     }
