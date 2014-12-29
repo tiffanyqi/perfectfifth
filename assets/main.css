@@ -4,8 +4,8 @@
     text-align: center;
     display: inline-block;
     word-spacing: 40px;
-    font-size: 16px;
-    padding: 5px;
+    font-size: 20px;
+    padding: 10px;
 }
 #navbar a {
     color: #ff7a7a;
@@ -133,6 +133,7 @@ footer {
     color: #ff7a7a;
     background: black;
     padding: 20px;
+
 }
 
 @media screen and (min-width: 1100px) {

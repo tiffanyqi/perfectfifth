@@ -6,12 +6,12 @@ $(document).ready(function(){
 
 
     $("body").css("display", "none");
-    $("body").fadeIn("slow");
+    $("body").fadeIn();
 
     $("a").click(function(event) {
         event.preventDefault();
         newLocation = this.href;
-        $("body").fadeOut(700, newPage);
+        $("body").fadeOut(400, newPage);
     });
 
     function newPage() {
