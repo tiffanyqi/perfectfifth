@@ -1,5 +1,2 @@
 animations:
-    - image resizing (for responsivity)
     - media popup instead of new link
-    - delayed transitions for links
-    - facebook icon on navbar

@@ -7,89 +7,63 @@
     font-size: 16px;
     padding: 5px;
 }
-#title-perfect {
-    position: absolute;
-    z-index: 1;
-    left: 300px;
-    top: 150px;
-    font-size: 100px;
-}
-#title-fifth {
+#navbar a {
     color: #ff7a7a;
-    position: absolute;
-    z-index: 1;
-    left: 300px;
-    top: 260px;
-    font-size: 100px;
+    text-decoration: none;
+    transition: 0.7s;
 }
-#jumbotron-picture {
-    background: url("pictures/banners/home-banner.jpg");
-    width: 960px;
-    height: 562px;
-    margin-right: auto;
-    margin-left: auto;
+#navbar a:hover {
+    transition: 0.7s;
+    color: white;
+    opacity: 1;
+}
+.icon {
+    float: right;
+    margin-right: 30px;
     border: 1px solid gray;
 }
-#jumbotron-overlay {
-    opacity: 0.5;
-    width: 960px;
-    height: 562px;
-    margin-right: auto;
-    margin-left: auto;
-}
-#about-picture {
-    background: url("pictures/banners/Fall2014.jpg");
-    width: 800px;
-    height: 438px;
-    margin-right: auto;
-    margin-left: auto;
+.icon:hover {
+    background: #ff7a7a;
+    opacity: .6;
+    transition: 0.7s;
     border: 1px solid gray;
-}
-#fb-icon {
-    position: fixed;
-}
-#fb-icon:hover {
-    background-color: #ff7a7a;
 }
 
-.container {
+.container-members-heading {
+    padding: 50px;
+    border: dotted white;
+    margin: 20px;
+    width: 860px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-members {
     padding: 50px;
     border: dotted #ff7a7a;
     margin: 20px;
-}
-.container-members {
-    padding: 30px;
-    border: dotted #ff7a7a;
-    margin: 20px;
-}
-.container-media {
-    padding: 70px;
-    padding-top: 5px;
-    border: dotted #ff7a7a;
-    margin: 20px;
-    width: 500px;
-    margin-left: auto;
+    width: 860px;
     margin-right: auto;
+    margin-left: auto;
 }
 .container-heading {
     padding: 50px;
     border: dotted white;
-    margin: 20px;
+    margin: 60px;
 }
-.container-members-heading {
-    padding: 30px;
-    border: dotted white;
-    margin: 20px;
+.container {
+    padding: 50px;
+    border: dotted #ff7a7a;
+    margin: 60px;
 }
 
-#lasciameti-morire {
+/*#lasciameti-morire {
   position: relative;
   background: #FFF;
   padding: 20px;
   width:auto;
   max-width: 500px;
   margin: 20px auto;
-}
+}*/
     /*audio src="assets/music/Monteverdi Lasciatemi.mp3" controls="controls"></audio>*/
 
 body {
@@ -128,12 +102,12 @@ i:hover {
 }
 a {
     color: #ff7a7a;
-    text-decoration: none;
     transition: 0.7s;
+    text-decoration: none;
 }
 a:hover {
     transition: 0.7s;
-    color: white;
+    opacity: 0.7;
 }
 img {
     border: 1px solid gray;
@@ -141,9 +115,19 @@ img {
 iframe {
     border: 1px solid gray;
     margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+#social-media {
+    margin-right: 30px;
 }
 footer {
-    margin-top: 100px;
+    margin-top: 150px;
     width: 100%;
     text-align: center;
     color: #ff7a7a;
@@ -151,29 +135,21 @@ footer {
     padding: 20px;
 }
 
-@media screen and (max-width: 970px) {
-    #title-perfect {
-        left: 80px;
-        top: 150px;
-    }
-    #title-fifth {
-        color: #ff7a7a;
-        position: absolute;
-        z-index: 1;
-        left: 80px;
-        top: 260px;
-        font-size: 100px;
-    }
-    .container-members {
-        padding: 50px;
-        border: dotted #ff7a7a;
-        margin: 20px;
-        width: 900px;
-    }
-    .container-members-heading {
+@media screen and (min-width: 1100px) {
+    .container-heading {
         padding: 50px;
         border: dotted white;
         margin: 20px;
-        width: 900px;
+        width: 860px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .container {
+        padding: 50px;
+        border: dotted #ff7a7a;
+        margin: 20px;
+        width: 860px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
