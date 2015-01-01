@@ -17,17 +17,6 @@
     color: white;
     opacity: 1;
 }
-.icon {
-    float: right;
-    margin-right: 30px;
-    border: 1px solid gray;
-    transition: 0.7s;
-}
-.icon:hover {
-    opacity: .6;
-    transition: 0.7s;
-    border: 1px solid gray;
-}
 
 .container-members-heading {
     padding: 50px;
@@ -110,9 +99,6 @@ table {
     font-weight: 300;
     width: 100%;
     margin-left: 50px;
-}
-#social-media {
-    margin-right: 30px;
 }
 footer {
     margin-top: 150px;
