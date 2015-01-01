@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="assets/main.css" />
     <link rel="shortcut icon" href="assets/p5.ico">
 
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script src="assets/script.js"></script>
 
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
@@ -16,6 +16,7 @@
   <body>
 
     <div id="navbar">
+      <img id="logo" src="assets/pictures/p5-logo.jpg" alt="Perfect Fifth Logo">
       <a href="index.html">HOME</a>
       <a href="about.html">ABOUT</a>
       <a href="members.html">MEMBERS</a>
@@ -88,38 +89,39 @@
           allowscriptaccess="always" allowfullscreen="true"></embed></object>
       </div>
 
-<!--       <div class="container">
+      <div class="container">
         <h2>Spring Concert 2010</h2>
           <ul>
-            <li><a href="assets/music/Monteverdi Lasciatemi.mp3">Lasciameti Morire</a> from <i>Lamento d'Arianna</i> by Claudio Monteverdi</li>
-            <li>O What Shall I do</b> by John Wilbye (feat. men of Perfect Fifth)</li>
-            <li>Mater Patris et Filia, Anonymous, 13th century (trio: Michelle Lee, Stacy Rutz, Genoa Starrs)</li>
+            <li><a href="#lasciameti-morire" class="popup-click">Lasciameti Morire</a> from <i>Lamento d'Arianna</i> by Claudio Monteverdi</li>
+              <div id="lasciameti-morire" class="popup-window">
+                <h4>Lasciameti Morire</h4>
+                <audio src="assets/music/Monteverdi Lasciatemi.mp3" controls="controls"></audio>
+              </div>
+            <li><a href="#wilbye" class="popup-click">O What Shall I Do</a> by John Wilbye (feat. men of Perfect Fifth)</li>
+              <div id="wilbye" class="popup-window">
+                <h4>O What Shall I Do</h4>
+                <audio src="assets/music/Wilbye.mp3" controls="controls"></audio>
+              </div>
+            <li><a href="#mater-patris" class="popup-click">Mater Patris et Filia</a>, Anonymous, 13th century (trio: Michelle Lee, Stacy Rutz, Genoa Starrs)</li>
+              <div id="mater-patris" class="popup-window">
+                <h4>Mater Patris</h4>
+                <audio src="assets/music/Mater Patris.mp3" controls="controls"></audio>
+              </div>
           </ul>
-
-      </div> -->
-
-<!--       <div class="container">
-        <h2>Spring Concert 2010</h2>
-          
-          <p><a href="#lasciameti-morire" class="inline-popup"><i>Lasciameti Morire</i></a> from <i>Lamento d'Arianna</i> by Claudio Monteverdi</p>
-
-            <div id="lasciameti-morire" class="inline-popup">
-              <audio src="assets/music/Monteverdi Lasciatemi.mp3" controls="controls"></audio>
-            </div> -->
-
-
-<!--           <a href="assets/music/Monteverdi Lasciatemi.mp3">Lasciameti Morire</a> from <i>Lamento d'Arianna</i> by Claudio Monteverdi</li> -->
       </div>
 
-<!--           <audio src="assets/music/Monteverdi Lasciatemi.mp3" controls="controls"></audio>
-          <audio src="assets/music/Wilbye.mp3" controls="controls"></audio>
-          <audio src="assets/music/Mater Patris.mp3" controls="controls"></audio>
- -->
-
-<!--           <h3>Embedded Methods</h3>
-
+<!--      Embedded YouTube
           <iframe width="480" height="385" src="https://www.youtube.com/embed/"></iframe>
-          <iframe width="480" height="385" src="assets/music//"></iframe> -->
+          <iframe width="480" height="385" src="assets/music//"></iframe> 
+          
+          Embedded Mp3
+          <li><a href="#" class="popup-click"></a></li>
+            <div id="" class="popup-window">
+              <h4></h4>
+              <audio src="assets/music/.mp3" controls="controls"></audio>
+            </div>
+          -->
+
 
 
 <!-- Other Media -->

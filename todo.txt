@@ -1,2 +1,0 @@
-animations:
-    - media popup instead of new link
