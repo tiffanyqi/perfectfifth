@@ -100,6 +100,10 @@ table {
     width: 100%;
     margin-left: 50px;
 }
+.year {
+    margin: 5 0 0 15;
+    display: inline-block;
+}
 footer {
     margin-top: 150px;
     width: 100%;
