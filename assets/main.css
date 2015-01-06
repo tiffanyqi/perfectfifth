@@ -17,6 +17,9 @@
     color: white;
     opacity: 1;
 }
+#logo {
+    display: inline-block;
+}
 
 .container-members-heading {
     padding: 50px;
@@ -64,7 +67,7 @@ h3 {
     text-align: center;
     margin-right: 10px;
 }
-h4 {
+h4, h5 {
     text-align: center;
 }
 b {
@@ -82,6 +85,9 @@ a:hover {
 }
 img {
     border: 1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 iframe, object {
     border: 1px solid gray;
