@@ -48,6 +48,29 @@
     margin: 60px;
 }
 
+.navbar-2 {
+    margin-bottom: 130px;
+    width: 100%;
+}
+button {
+    float: left;
+    background: #ff7a7a;
+    padding: 10px;
+    transition: 0.7s;
+    opacity: 0.8;
+    border: 0;
+    padding: 15px;
+}
+button a {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+button:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
     background: #333333;
@@ -106,10 +129,7 @@ table {
     width: 100%;
     margin-left: 50px;
 }
-.year {
-    margin: 5 0 0 15;
-    display: inline-block;
-}
+
 footer {
     margin-top: 150px;
     width: 100%;
