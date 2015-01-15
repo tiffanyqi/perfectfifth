@@ -78,6 +78,10 @@ body {
     line-height: 1.75;
     letter-spacing: 0.1px;
     font-weight: 300;
+    overflow-x: hidden;
+}
+html {
+    overflow-x: hidden;
 }
 h1 {
     width: 100%;
@@ -136,7 +140,10 @@ footer {
     text-align: center;
     color: #ff7a7a;
     background: black;
-    padding: 20px;
+    padding: 20 0;
+    position: absolute;
+    left: 0px;
+    right: 0px;
 }
 
 .popup-window {
